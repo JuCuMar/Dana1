@@ -1,0 +1,16 @@
+ 6 mkdir catarroja alfafar paiporta massanassa
+ 7 cd catarroja/
+ - touch enero febrero marzo
+ 8 cd ../alfafar/
+ 9 cp -r ../catarroja/enero/ .
+ 10 cd ..
+ 11 cp catarroja/* paiporta/
+ 12 rm paiporta/*ro
+ 13 mv catarroja/enero masanasa/
+ 14 git fetch
+ - git merge origin/master 
+ 16 mv massanassa/enero  massanassa/abril
+ 17 cp massanassa/abril ./hola
+ 18 cd paiporta/
+ 19 rm -r ../massanassa/
+
